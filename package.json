@@ -1,0 +1,29 @@
+{
+  "name": "express-store-api",
+  "version": "1.0.0",
+  "description": "Store API Node application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khiati-walid/node-express-Store-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khiati-walid/node-express-Store-API/issues"
+  },
+  "homepage": "https://github.com/khiati-walid/node-express-Store-API#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^5.11.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
