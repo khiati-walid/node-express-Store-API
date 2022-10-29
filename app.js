@@ -2,6 +2,9 @@ const express = require("express");
 const app = express();
 require("dotenv").config();
 
+const notFoundMiddleware = require("./middleware/not-found");
+const errorHandlerMiddleware = require("./middleware/error-handler");
+
 // Middleware
 app.use(express.json());
 
@@ -9,6 +12,11 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send("<h1>Store API</h1>");
 });
+
+// Products Routes
+
+app.use(notFoundMiddleware);
+app.use(errorHandlerMiddleware);
 
 const port = process.env.PORT || 5000;
 const start = async () => {
