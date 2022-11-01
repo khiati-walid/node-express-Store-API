@@ -22,6 +22,4 @@ npm start
 
 ### [Node.js Projects](https://youtu.be/rltfdjcXjmk?list=PLnHJACx3NwAdl4yeJF6LzjDiLyW1yF9Ds)
 
-### [Author](https://github.com/john-smilga)
-
 ---
